@@ -9,6 +9,7 @@
 .img-circle {
     border-radius: 50%;
     border: 1px solid black;
+    float: left;
 
 
     /* interesting result but creates padding withing my image (between image and frame)padding: right:3px bottom:0px left:0px */
@@ -25,7 +26,13 @@
 
 .jumbotron {
     background-image: url(images/anchored.jpg);
-    background-size: cover;
+    background-position: top -900px left 0px;
+    height: 400px;
+}
+
+.class="textfloatright"
+{
+padding-left: 5px;
 }
 
 body {
@@ -33,6 +40,10 @@ body {
     background-color: #FFD700;
     padding-top: 70px;
     }
+
+p {
+    line-height: 1.5;
+}
 
 
 /* div styling
@@ -42,6 +53,19 @@ div.container {
 }
 */
 
+#bannertext {
+    font-size: 200px;
+    color: white;
+    text-shadow: #888888;
+}
+
+#bannerpic {
+    /*
+   margin-top: -300px;
+    height: 500px:
+    */
+}
+}
 
 #col-md-4 {
     background: url(images/anchored.jpg) 50% 0 no-repeat fixed;
