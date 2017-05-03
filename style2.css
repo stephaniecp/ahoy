@@ -30,9 +30,9 @@
     height: 400px;
 }
 
-.class="textfloatright"
-{
-padding-left: 5px;
+.col-md-10 {
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 body {
@@ -52,6 +52,20 @@ div.container {
     align-self: center;
 }
 */
+
+#find {
+    top: 50%;
+    left: 50%;
+
+}
+
+#flickr {
+    align-content:right;
+}
+
+#instagram {
+    align-content:right;
+}
 
 #bannertext {
     font-size: 200px;
