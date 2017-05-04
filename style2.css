@@ -26,14 +26,26 @@
 
 .jumbotron {
     background-image: url(images/anchoredbanner.jpg);
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    /*
-    object-fit: cover;
-    height: 200%;
-    background-position: top -900px left 0px;
-    height: 400px;
-    */
+@media screen and (min-width : 320px) {
+    .jumbotron {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .jumbotron {
+        height: 500px;
+    }
 }
 
 .jumbotron .container {
