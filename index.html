@@ -29,27 +29,40 @@
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
+    <!--
     <div class="navbar-header">
-      <!-- Probably not useful
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar">About</span>
-        <span class="icon-bar">The Boat</span>
-        <span class="icon-bar">Find us</span>
-      </button>
-      -->
-
       <a class="navbar-brand" href="#about">About</a>
       <a class="navbar-brand" href="#boat">The Boat</a>
       <a class="navbar-brand" href="#find">Find Us</a>
       <a class="navbar-brand" href="#updates">Updates</a>
       <a class="navbar-brand" href="https://www.flickr.com/photos/142565770@N04/albums/72157680575169792" target="_blank">Pictures</a>
-
-      <!--- HUGE mistake?
-      <a class="navbar-brand" id="flickr img src="flickr" alt="Mountain View"</a>
-      <a class="navbar-brand" id="instagram"</a>
-      -->
-      
+  </div>
+  -->
+  
+    <!-- For navbar styling docs see: https://getbootstrap.com/examples/navbar-fixed-top/#contact -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+  
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!--
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        -->
+        <li><a href="#about">About</a></li>
+        <li><a href="#boat">The Boat</a></li>
+        <li><a href="#find">Find Us</a></li>
+        <li><a href="#updates">Updates</a></li>
+        <li><a href="https://www.flickr.com/photos/142565770@N04/albums/72157680575169792" target="_blank">Pictures</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    
   </div>
 </nav>
 
@@ -129,9 +142,9 @@
 
   <hr />
 
-  <div class="row" id="about">
+  <div class="row">
     <div class="col-md-8">
-      <h1 >About</h1>
+      <h1 id="about">About</h1>
       <h3>The Plan</h3>
         <p>The vison for this trip has changes quite a bit over the last couple of months but at this point we are planing on saling around the Salish sea for a while,
           spend some time in various islands of the San Juan Islands (U.S), the Gulf Islands (Canada), Vancouver BC and hopefully the Skidies (BC).
