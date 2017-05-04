@@ -25,10 +25,19 @@
     }
 
 .jumbotron {
-    background-image: url(images/anchored.jpg);
+    background-image: url(images/anchoredbanner.jpg);
+    background-size: 100% 100%;
+
+    /*
+    object-fit: cover;
+    height: 200%;
     background-position: top -900px left 0px;
     height: 400px;
+    */
 }
+
+.jumbotron .container {
+   }
 
 .col-md-10 {
     padding-left: 2%;
@@ -68,19 +77,28 @@ div.container {
 }
 
 #bannertext {
-    font-size: 200px;
+    font-size: 50px;
     color: white;
     text-shadow: #888888;
 }
 
-#bannerpic {
     /*
    margin-top: -300px;
     height: 500px:
     */
 }
+
+
+#about {
+    align-text: center;
 }
 
+/*
+acmefont{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  */
+}
 #col-md-4 {
     background: url(images/anchored.jpg) 50% 0 no-repeat fixed;
     background-size: contain;
