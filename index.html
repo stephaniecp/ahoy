@@ -4,6 +4,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Code libary for social media icons, from:
+        http://www.kodingmadesimple.com/2014/11/create-stylish-bootstrap-3-social-media-icons.html
+        -->
+        <title>Bootstrap 3 Social Media Icons Tutorial</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Load Bootstrap css-->
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+        <!--load font awesome-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <!--
@@ -23,6 +38,7 @@
   <link href="style2.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="bootstrap-3.3.7-dist/jumbotron.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -56,10 +72,9 @@
         <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
         -->
         <li><a href="#about">About</a></li>
-        <li><a href="#boat">The Boat</a></li>
-        <li><a href="#find">Find Us</a></li>
         <li><a href="#updates">Updates</a></li>
-        <li><a href="https://www.flickr.com/photos/142565770@N04/albums/72157680575169792" target="_blank">Pictures</a></li>
+        <li><a href="#find">Find Us</a></li>
+        <li><a href="https://www.flickr.com/photos/142565770@N04/albums/72157680575169792" target="_blank"> Pictures</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
     
@@ -81,124 +96,130 @@
   </div>
 </div>
 
-<div class="row" id="find" id="map-responsive">
-  <div class="col-md-10">
-    <h2>Find Us</h2>
-    <p class="embed-responsive embed-responsive-16by9 col-xs-12 text-center"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1iaP2Owy3Xsl-c4_gt6tBNXoDEXA" width="640" height="480"> </iframe></p>
+<div class="container">
+
+
+  <div class="row" id="find" id="map-responsive">
+    <div class="col-md-12">
+      <h2 align="center"><!--where a title would go--></h2>
+      <p class="embed-responsive embed-responsive-16by9 col-xs-12 text-center"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1iaP2Owy3Xsl-c4_gt6tBNXoDEXA" width="640" height="480"> </iframe></p>
+    </div>
   </div>
+
+  <div class="row">
+      <div>
+        <h1 id="updates"><!--where title would go--></h1>
+      </div>
+
+      <br/>
+
+      <div class="col-md-4">
+        <h2>Hanging out on Lopez island</h2>
+        <h5>May 2nd 5:14pm PT</h5>
+        <p>We arrive in Fisherman's bay (Lopez island) yesterday evening and anchored for the night. Winds are mellow and conditions ideal. One of the coolest libary we know of
+          is located at only a few minutes walk from our current spot. So yes, that mean internet and power easilly accesible, therefore we have a cubicule for the next couple of days!
+          Our next destination isn't decided yet, we do like this current spot and will likely stick around another day or two? We will let you know how things go!
+        </p>
+      </div>
+
+        <div class="col-md-4">
+          <h2>Back to Port Townsend</h2>
+          <h5>April 30th 9:24pm PT</h5>
+          <p>So we left as expected ealier this morning, and started to make our way to Rosario beach. We made it almost halfway and decided to turn around.
+            The winds turned out to be more than expected and not redusing at all (was originaly predicted to do so), standing waves were unconfortably big and against us, our guess would be maybe 5 feet, so heading back the way we came
+            (with the waves) definitly felt less of a struggle (even though we had to fight current on the way back) but that was a good decision overall. The boat is fine and did great, we are fine, although a little sea sick.
+            We made it back to Port Townsend around 2pm and will now carefully check the marine forecast for the next days and leave
+            on next window of good sailing, possibly tomorrow (destination still to come).  </p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Ready to go!</h2>
+          <h5>April 29th 11:37pm PT</h5>
+          <p>It is 11:37pm PT, Jon and I are both on the boat, at our usual slip in Port Townsend. After a few days of work, cleaning, running around,
+          prepping, doing laundry, going back to get things forgotten, organizing the boat, and reorganizing it... we are finally laying down and ready to go. We are taking off tomorrow morning,
+          around 8:30am to catch the favorable current and make it to Rosario Beach (Fidalgo island) plenty of time ahead for our two dear friend's wedding ceremony. We will likely anchor in Bowman Bay for the night.
+            Strangewaves (the boat) is more loaded than she ever has been in the time I have owned her (just over 2 years), but everything fitted nicely, or mostly and the water line is still happy.
+            This is the beginnig of the adventure!</p>
+        </div>
+
+  <hr/>
+
+  <div class="row">
+        <div class="col-md-12">
+            <h1 id="about" align="center">About</h1>
+          <h3>The Plan</h3>
+          <p>The vison for this trip has changes quite a bit over the last couple of months but at this point we are planing on saling around the Salish sea for a while,
+            spend some time in various islands of the San Juan Islands (U.S), the Gulf Islands (Canada), Vancouver BC and hopefully the Skidies (BC).
+            The route is still very open, actually we haven't figured out much of it yet. We are hoping to sleep mostly at anchor, with some exceptions for cold night,
+            storms, need to recharge the batteries (which we will find out how long they last) or too many days of rain in a row (requiring an electric heater to dry off our clothes).
+            As Jon will still be working on his current software project, we will be exploring libraries a lot and hunting for cafes, wifi and power. As of for me, having started learning html/css
+            and basic programming recently, I created this blog using stuff recently learned and playing with making this site is a good way for me to pratice all this fun stuff.
+            Equiped with a 5 gallons water tank, no heater and about 33L (8.75 Gallons) of fuel, we are ready for the challenge!  If winds go as planned, we are
+            leaving Sunday April 30th early in the morning and comming back sometime in July. This is going to be by far our longest trip onbord of Strangewaves!. </p>
+          <br>
+          <p>
+          <h3 id="steph"> Steph
+              <span class="list-inline">
+                <li><a href="https://www.flickr.com/photos/142565770@N04"> <i class="fa fa-lg fa-flickr"></i></a></li>
+                <li><a href="https://www.instagram.com/thestephaniecp/"> <i class="fa fa-lg fa-instagram"></i></a></li>
+                <!-- Just playing
+                <li><a href="https://github.com/stephaniecp"><i class="fa fa-lg fa-github"></i></a></li>
+                -->
+              </span>
+          </h3>
+
+          <p>
+            <img class="img-circle" src="images/steph.jpg" alt="Steph" title="Picture of Steph"height="150" width="150"/>
+            That's me. I am the captain and blogger and the one mostly keeping this blog up to date. I will try my best to put updates about where we are
+            and what we are up to every week (depeding on internet connection, power and motivation). My experience with sailing is still relativly recent, but to draw the big picture
+            I had the chance to crew a few times between 2014 and 2015 for small day-sails on friend's boats.
+            That same winter, after a long bicycle trip from PT to San Diego, Jon and I got
+            to live on a motor boat and had the opportunity to learn more about sailing during that same period, and the idea grew from there...
+            I moved to Victoria in the beginning of 2015, started reading more about sailing... and look for a boat to buy.
+            This is how I found Strangewaves <3
+          </p>
+          <br/>
+          <h3 id="jon">Jon
+            <span class="list-inline">
+                <li><a href="https://www.flickr.com/photos/earthwandering"> <i class="fa fa-lg fa-flickr"></i></a></li>
+                <li><a href="https://www.instagram.com/thejongarrison/"> <i class="fa fa-lg fa-instagram"></i></a></li>
+              <!-- Just playing
+              <li><a href="https://github.com/stephaniecp"><i class="fa fa-lg fa-github"></i></a></li>
+              -->
+          </h3>
+          <p class="textfloatright">
+            <img class="img-circle" src="images/jon.jpg" alt="Jon" title="Picture of Jon" height="150" width="150" position="center"/>
+            Jon, as I am sure you already know (not many people will read this blog is my guess) grew up sailing with his dad on the EastCoas and has had an interest in sailing since a long time.
+            He had the change to crew with a good friend of ours from Port Tonsend to Pettersberg, AK,
+            a couple of years ago (check out his <a href="https://www.flickr.com/photos/earthwandering/albums/72157644544117620" target="_blank">pictures</a>).
+            With his great skill at convincing his friends to get boats (so he gets to crew and not maintain the thing) he was definitly a significant part of the beginning
+            of my quest to find a sailboat. This said, I am glad he did and sailing with such a goofball is quite a wonderful thing. Silly when conditions allow it, serious/cautious when needed, and
+            so far never seasick (in my experience with him at least), it's a lot of fun to cruise with him.
+          </p>
+
+
+        </div>
+    <br/>
+
+        <div class="row" id="boat">
+          <div class="col-md-12">
+            <h3>The Boat</h3>
+            <img class="withborder" src="images/tanzer7.5.gif" alt="Tanzer 7.5 model picture" Title="Tanzer 7.5"  align="right" height="200" width="200" <!-- Maybe not useful?  padding="5px" -->
+            <p>The Boat is a Tanzer 7.5 (stands for 7.5 meters, so just under 25 feet), built in 1978. She is a sloop and was designed by Johann Tanzer.
+              The 7.5 model was designed with two different keel, the fin keel and shoal keel (the one Strangewaves has), with only 2.67ft draft. She is equipped
+              with a 9.9 horse power 2012 Yahama outbord engine (kick ass little thing), 5 (19L) Gallons water tank (that's right, but we do have extra gallons statched everywhere),
+              about 33L (8.75Gallons) of fuel capacity, and no source of heating at anchor. We are not sissies (we hope)!</p>
+            <p>She was purchased by myself in Victoria, BC in March 2015 as I was looking for both a cheap place to live in Victoria and a way to do more sailing.</p>
+          </div>
+        </div>
+  </div>
+
 </div>
 
-<hr />
-
-<div class="container">
-  <!-- Example row of columns -->
 
 
-  <!-- Exemple of article
-  <div class="col-md-4">
-  <div class="row">
-    <div class="col-md-10">
-      <h2>Title</h2>
-      <p></p>
-    </div>
-  </div>
-  -->
-
-  <div class="row" id="updates">
 
 
-    </div>
-
-  <div class="col-md-4">
-    <h2>Hagning out on Lopez island</h2>
-    <h5>May 2nd 5:14pm PT</h5>
-    <p>We arrive in Fisherman's bay (Lopez island) yesterday evening and anchored for the night. Winds are mellow and conditions ideal. One of the coolest libary we know of
-      is located at only a few minutes walk from our current spot. So yes, that mean internet and power easilly accesible, therefore we have a cubicule for the next couple of days!
-      Our next destination isn't decided yet, we do like this current spot and will likely stick around another day or two? We will let you know how things go!
-    </p>
-  </div>
-
-    <div class="col-md-4">
-      <h2>Back to Port Townsend</h2>
-      <h5>April 30th 9:24pm PT</h5>
-      <p>So we left as expected ealier this morning, and started to make our way to Rosario beach. We made it almost halfway and decided to turn around.
-        The winds turned out to be more than expected and not redusing at all (was originaly predicted to do so), standing waves were unconfortably big and against us, our guess would be maybe 5 feet, so heading back the way we came
-        (with the waves) definitly felt less of a struggle (even though we had to fight current on the way back) but that was a good decision overall. The boat is fine and did great, we are fine, although a little sea sick.
-        We made it back to Port Townsend around 2pm and will now carefully check the marine forecast for the next days and leave
-        on next window of good sailing, possibly tomorrow (destination still to come).  </p>
-    </div>
-
-    <div class="col-md-4">
-      <h2>Ready to go!</h2>
-      <h5>April 29th 11:37pm PT</h5>
-      <p>It is 11:37pm PT, Jon and I are both on the boat, at our usual slip in Port Townsend. After a few days of work, cleaning, running around,
-      prepping, doing laundry, going back to get things forgotten, organizing the boat, and reorganizing it... we are finally laying down and ready to go. We are taking off tomorrow morning,
-      around 8:30am to catch the favorable current and make it to Rosario Beach (Fidalgo island) plenty of time ahead for our two dear friend's wedding ceremony. We will likely anchor in Bowman Bay for the night.
-        Strangewaves (the boat) is more loaded than she ever has been in the time I have owned her (just over 2 years), but everything fitted nicely, or mostly and the water line is still happy.
-        This is the beginnig of the adventure!</p>
-    </div>
-
-  </div>
-
-  <hr />
-
-  <div class="row">
-    <div class="col-md-8">
-      <h1 id="about">About</h1>
-      <h3>The Plan</h3>
-        <p>The vison for this trip has changes quite a bit over the last couple of months but at this point we are planing on saling around the Salish sea for a while,
-          spend some time in various islands of the San Juan Islands (U.S), the Gulf Islands (Canada), Vancouver BC and hopefully the Skidies (BC).
-          The route is still very open, actually we haven't figured out much of it yet. We are hoping to sleep mostly at anchor, with some exceptions for cold night,
-          storms, need to recharge the batteries (which we will find out how long they last) or too many days of rain in a row (requiring an electric heater to dry off our clothes).
-          As Jon will still be working on his current software project, we will be exploring libraries a lot and hunting for cafes, wifi and power. As of for me, having started learning html/css
-          and basic programming recently, I created this blog using stuff recently learned and playing with making this site is a good way for me to pratice all this fun stuff.
-          Equiped with a 5 gallons water tank, no heater and about 33L (8.75 Gallons) of fuel, we are ready for the challenge!  If winds go as planned, we are
-          leaving Sunday April 30th early in the morning and comming back sometime in July. This is going to be by far our longest trip onbord of Strangewaves!. </p>
-      <br>
-        <p>
-      <h3>Stepho</h3>
-        <p class="textfloatright">
-           <img class="img-circle" src="images/steph.jpg" alt="Steph" title="Picture of Steph"height="200" width="200" position="center" />
-          That's me. I am the captain and blogger and the one mostly keeping this blog up to date. I will try my best to put updates about where we are
-          and what we are up to every week (depeding on internet connection, power and motivation). My experience with sailing is still relativly recent, but to draw the big picture
-          I had the chance to crew a few times between 2014 and 2015 for small day-sails on friend's boats.
-          That same winter, after a long bicycle trip from PT to San Diego, Jon and I got
-          to live on a motor boat and had the opportunity to learn more about sailing during that same period, and the idea grew from there...
-          I moved to Victoria in the beginning of 2015, started reading more about sailing... and look for a boat to buy.
-          This is how I found Strangewaves <3
-      </p>
-      <br>
-      <p>
-      <h3>JonO</h3>
-      <p class="textfloatright">
-        <img class="img-circle" src="images/jon.jpg" alt="Jon" title="Picture of Jon" height="200" width="200" position="center"/>
-        Jon, as I am sure you already know (not many people will read this blog is my guess) grew up sailing with his dad on the EastCoas and has had an interest in sailing since a long time.
-        He had the change to crew with a good friend of ours from Port Tonsend to Pettersberg, AK,
-        a couple of years ago (check out his <a href="https://www.flickr.com/photos/earthwandering/albums/72157644544117620" target="_blank">pictures</a>).
-        With his great skill at convincing his friends to get boats (so he gets to crew and not maintain the thing) he was definitly a significant part of the beginning
-        of my quest to find a sailboat. This said, I am glad he did and sailing with such a goofball is quite a wonderful thing. Silly when conditions allow it, serious/cautious when needed, and
-        so far never seasick (in my experience with him at least), it's a lot of fun to cruise with him.
-
-        <!-- To be removed
-        Professional geek, mechanicly inclined, great cook, careful (most of the time) are part of what makes Jon a fantastic person to sail with... although it feels like
-      I travel with a dissabled man sometimes when I see the many pounds/square feet his computer set-up takes on such tiny boat, ha!
-      -->
-      </p>
-      </p>
-
-    </div>
-  </div>
-
-  <hr />
-
-  <div class="row" id="boat">
-    <div class="col-md-10">
-      <h2>The Boat</h2>
-      <img class="withborder" src="images/tanzer7.5.gif" alt="Tanzer 7.5 model picture" Title="Tanzer 7.5"  align="right" height="200" width="200" <!-- Maybe not useful?  padding="5px" -->
-      <p>The Boat is a Tanzer 7.5 (stands for 7.5 meters, so just under 25 feet), built in 1978. She is a sloop and was designed by Johann Tanzer. The 7.5 model was designed with two different keel, the fin keel and shoal keel (the one Strangewaves has), with only 2.67ft draft. She is equipped with a 9.9 horse power 2012 Yahama outbord engine, 5 (19L) Gallons water tank (that's right, but we do have extra gallons statched everywhere), about 33L (8.75Gallons) of fuel capacity, and no source of heating at anchor. We are not sissies (we hope)!</p>
-        <p>She was purchased by myself in Victoria, BC in March 2015 as I was looking for both a cheap place to live in Victoria and a way to do more sailing.</p>
-    </div>
-  </div>
 
 
 

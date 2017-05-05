@@ -10,7 +10,7 @@
     border-radius: 50%;
     border: 1px solid black;
     float: left;
-
+    margin-right: 15px;
 
     /* interesting result but creates padding withing my image (between image and frame)padding: right:3px bottom:0px left:0px */
 
@@ -20,8 +20,19 @@
     */
 }
 
-.withborder {
+.embed-responsive {
+
+    /*
+    margin-left: 30px;
+    margin-right: 30px;
+    align: center;
+    */
+
+}
+
+                                                                                                                                                                                                          .withborder {
     border: 5px solid black;
+    margin-left: 15px;
     }
 
 .jumbotron {
@@ -30,23 +41,69 @@
     background-size: cover;
 }
 
+
+
 @media screen and (min-width : 320px) {
-    .jumbotron {
+
+        #steph #jon #boat{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        #updates {
+            margin-top: 20px;
+        }
+
+        .jumbotron {
         height: 150px;
-    }
+        }
+         #find {
+        margin-top: 15px;
+        }
+        #about {
+            margin-top: 30px;
+        }
 }
 
 @media screen and (min-width: 768px) {
-    .jumbotron {
+            .jumbotron {
         height: 300px;
-    }
+            }
+        #steph #jon #boat{
+        margin-top: 20px;
+            margin-bottom: 25px;
+        }
+        #updates {
+            margin-top: 30px;
+        }
+        #find {
+        margin-top: 25px;
+        }
+        #about {
+            margin-top: 40px;
+        }
 }
 
 @media screen and (min-width: 992px) {
-    .jumbotron {
+            .jumbotron {
         height: 500px;
-    }
+        }
+
+        #steph #jon #boat{
+        margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        #updates {
+            margin-top: 40px;
+        }
+        #find {
+        margin-top: 30px;
+        }
+        #about {
+            margin-top: 50px;
+        }
 }
+
+
 
 .jumbotron .container {
    }
@@ -84,9 +141,6 @@ div.container {
     align-content:right;
 }
 
-#instagram {
-    align-content:right;
-}
 
 #bannertext {
     font-size: 50px;
@@ -105,12 +159,32 @@ div.container {
     align-text: center;
 }
 
+#about #steph #jon {
+
+
+#steph {
+
+}
+
+#jon {
+    margin-top: 30px;
+
+}
+
 /*
 acmefont{
     font-family: 'Acme', sans-serif;
     font-family: 'Montserrat', sans-serif;
   */
 }
+
+#social {
+    /*
+    text-align:justify;
+    display:inline-block;
+    */
+}
+
 #col-md-4 {
     background: url(images/anchored.jpg) 50% 0 no-repeat fixed;
     background-size: contain;
@@ -126,6 +200,72 @@ acmefont{
     font-family: 'Playfair Display', serif;
    }
    */
+
+/* experimental for social media icons*/
+        .social {
+            margin: 0;
+            padding: 0;
+        }
+
+        .social ul {
+            margin: 0;
+            padding: 5px;
+        }
+
+        .social ul li {
+            margin: 5px;
+            list-style: none outside none;
+            display: inline-block;
+        }
+        .social i {
+            /* original code
+            width: 40px;
+            height: 40px;
+            */
+            width: 20px;
+            height: 20px;
+            color: #FFF;
+            background-color: #909AA0;
+            font-size: 22px;
+            text-align:center;
+            padding-top: 12px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -o-border-radius: 50%;
+            transition: all ease 0.3s;
+            -moz-transition: all ease 0.3s;
+            -webkit-transition: all ease 0.3s;
+            -o-transition: all ease 0.3s;
+            -ms-transition: all ease 0.3s;
+        }
+
+        .social i:hover {
+            color: #FFF;
+            text-decoration: none;
+            transition: all ease 0.3s;
+            -moz-transition: all ease 0.3s;
+            -webkit-transition: all ease 0.3s;
+            -o-transition: all ease 0.3s;
+            -ms-transition: all ease 0.3s;
+        }
+
+            .social .fa-github:hover { /* round github icon*/
+                background: #343434;
+            }
+
+
+            .social .fa-flickr:hover { /* round flickr icon*/
+                background: #FF57AE;
+            }
+
+            .social .fa-instagram:hover { /* round instagram icon*/
+                background: #375989;
+            }
+
+            .social .fa-youtube-play:hover { /* round youtube play button icon*/
+                background: #DF192A;
+            }
 
 /* previous styling for intro
 #intro h1 {
