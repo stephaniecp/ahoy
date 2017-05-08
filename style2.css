@@ -152,7 +152,6 @@ div.container {
    margin-top: -300px;
     height: 500px:
     */
-}
 
 
 #about {
@@ -160,6 +159,8 @@ div.container {
 }
 
 #about #steph #jon {
+}
+
 
 
 #steph {
@@ -176,7 +177,7 @@ acmefont{
     font-family: 'Acme', sans-serif;
     font-family: 'Montserrat', sans-serif;
   */
-}
+
 
 #social {
     /*
@@ -193,6 +194,7 @@ acmefont{
     */
     text-align: center;
     text-shadow: 2px 2px 4px #999999;
+}
     /* not sure if still usefull
     margin: -200px 5px 5px 5px;
     padding: 0;
