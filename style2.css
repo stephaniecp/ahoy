@@ -63,6 +63,10 @@
         #about {
             margin-top: 40px;
         }
+        #bannertext {
+            font-size: 50px;
+            -webkit-text-stroke: 2px black;
+        }
         /*
         #boat {
             margin-top: 50px;
@@ -87,6 +91,10 @@
         }
         #about {
             margin-top: 100px;
+        }
+        #bannertext {
+            font-size: 100px;
+            -webkit-text-stroke: 4px black;
         }
         /*
         #boat {
@@ -113,6 +121,10 @@
         }
         #about {
             margin-top: 150px;
+        }
+        #bannertext {
+            font-size: 200px;
+            -webkit-text-stroke: 7px black;
         }
         /*
         #boat {
@@ -149,9 +161,7 @@ div.container {
     align-self: center;
 }
 */
-#ahoytext {
-    font-family: "Playfair Display";font-size: 200px;
-}
+
 
 #find {
     top: 50%;
@@ -165,7 +175,8 @@ div.container {
 
 
 #bannertext {
-    font-size: 50px;
+    font-family: 'Boogaloo', cursive;
+    text-align: right;
     color: white;
     text-shadow: #888888;
 }
@@ -177,7 +188,9 @@ div.container {
 
 
 #about {
+    /*
     align-text: center;
+    */
 }
 
 #about #steph #jon {
