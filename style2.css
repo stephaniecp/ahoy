@@ -190,12 +190,13 @@ div.container {
 
 
 #about {
-    /*
-    align-text: center;
-    */
+    background-color: black;
+    color: white;
 }
 
-#about #steph #jon {
+#updates {
+    background-color: black;
+    color: white;
 }
 
 
