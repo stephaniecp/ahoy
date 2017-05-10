@@ -20,6 +20,19 @@
     */
 }
 
+a {
+    color: #8B008B;
+}
+
+a:visited {
+    color: #8B008B;
+}
+
+a:hover {
+    color: #4B0082;
+}
+
+
 
 .embed-responsive {
 
@@ -270,7 +283,8 @@ div.container {
         }
 
         .social i:hover {
-            color: #FFF;
+            /*color: #FFF; */
+            color: #4B0082;
             text-decoration: none;
             transition: all ease 0.3s;
             -moz-transition: all ease 0.3s;
