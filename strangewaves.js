@@ -3,7 +3,9 @@
  */
 
     $(document).ready(function() {
+      /*
       $('#nav').localScroll(800);
+       */
 
       //.parallax(xPosition, speedFactor, outerHeight) options:
       //xPosition - Horizontal position of the element
@@ -11,7 +13,7 @@
       //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 
       //Scrolling set up stuff
-      var speedFactor = 0.8;
+      // var speedFactor = 0.8;
 
       /* disabled
       $('#intro').parallax("50%", speedFactor);
@@ -20,7 +22,23 @@
       $('#boat').parallax("50%", speedFactor);
       */
 
+      /*Code library to run the "read more" feature*/
+      $('.reveal').click(function() {
+        $(this).slideUp(100);
+        $(this).next().slideToggle();
+        $(".collapse").slideDown(100);
+      });
+      $('.collapse').click(function() {
+        $(this).slideUp(100);
+        $(this).prev().slideToggle();
+        $(".reveal").slideDown(100);
+      });
+
+      /*Code library carousel*/
+      $('.carousel').carousel()
+
       console.log("finished loading strangewaves.js")
     });
+
 
 
