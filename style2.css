@@ -225,23 +225,41 @@ div.container {
 
 
 #about {
-    background-color: black;
+    background-color: #0f001a; /* was black */
     color: white;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
 #updates {
-    background-color: black;
+    background-color: #0f001a; /* was black */
     color: white;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 #find {
-    background-color: black;
+    background-color: #0f001a; /* was black */
     color: white;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+.articles {
+    background-color: #2d004d;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    text-align: center;
+}
+
+.date {
+    background-color: #9f1aff;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    text-align: center;
 }
 
 
