@@ -229,6 +229,7 @@ div.container {
     color: white;
     padding-top: 2px;
     padding-bottom: 2px;
+    border-radius: 10px;
 }
 
 #updates {
@@ -236,12 +237,15 @@ div.container {
     color: white;
     padding-top: 2px;
     padding-bottom: 2px;
+    /* experimental */ border-radius: 10px;
 }
 #find {
     background-color: #0f001a; /* was black */
     color: white;
     padding-top: 2px;
     padding-bottom: 2px;
+    border-radius: 10px;
+
 }
 
 .articles {
@@ -251,15 +255,17 @@ div.container {
     padding-bottom: 2px;
     padding-left: 2px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .date {
-    background-color: #9f1aff;
+    background-color: #8B008B;
     color: white;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 2px;
     text-align: center;
+    border-radius: 10px;
 }
 
 
