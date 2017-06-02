@@ -248,6 +248,7 @@ div.container {
 
 }
 
+/*experimental*/
 .articles {
     background-color: #2d004d;
     color: white;
@@ -258,6 +259,7 @@ div.container {
     border-radius: 10px;
 }
 
+/*experimental*/
 .date {
     background-color: #8B008B;
     color: white;
